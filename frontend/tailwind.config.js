@@ -7,7 +7,15 @@ export default {
     "./src/pages/Home.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background' : "url('./assets/img_1.png')",
+      },
+      height: {
+        '152' : "38rem ",
+        '162' : '40.5rem'
+      }
+    },
   },
   plugins: [],
 }
