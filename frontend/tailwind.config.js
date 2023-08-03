@@ -7,7 +7,11 @@ export default {
     "./src/pages/Home.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background1' : "url('./assets/unsplash_SZJoYW4eLHE.png')",
+      },
+    },
   },
   plugins: [],
 }
