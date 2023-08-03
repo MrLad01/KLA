@@ -8,9 +8,9 @@ const Nav = () => {
      <nav className='flex w-full'>
         <img src={logo} alt="KLA logo" />
         <div className='justify-center'>
-            <NavLink>Home</NavLink>
-            <NavLink>About</NavLink>
-            <NavLink>Contact Us</NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="about">About</NavLink>
+            <NavLink to="contact">Contact Us</NavLink>
         </div>
      </nav>
      <Outlet />
