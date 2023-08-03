@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Cont = () => {
   return (
     <React.Fragment>
         <div className='bg-background1 object-cover w-screen h-screen'>
-            <h2 className='text-white'>CONTACT US</h2>
+            <Link className='text-white'>CONTACT US</Link>
         </div>
     </React.Fragment>
   )
