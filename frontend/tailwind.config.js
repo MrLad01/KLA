@@ -8,7 +8,11 @@ export default {
     "./src/layout/Nav.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background' : "url('./assets/unsplash_BjhUu6BpUZA.jpg')",
+      },
+    },
   },
   plugins: [],
 }
