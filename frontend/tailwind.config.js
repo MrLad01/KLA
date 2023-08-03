@@ -10,6 +10,7 @@ export default {
     extend: {
       backgroundImage: {
         'background1' : "url('./assets/unsplash_SZJoYW4eLHE.png')",
+        'background' : "url('./assets/img_1.png')",
       },
       height: {
         '152': '38rem'
