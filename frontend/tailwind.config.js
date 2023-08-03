@@ -11,6 +11,9 @@ export default {
       backgroundImage: {
         'background1' : "url('./assets/unsplash_SZJoYW4eLHE.png')",
       },
+      height: {
+        '152': '38rem'
+      }
     },
   },
   plugins: [],
