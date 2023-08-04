@@ -16,9 +16,17 @@ export default {
         'background' : "url('./assets/img_1.png')",
       },
       height: {
+        '100' : '25rem',
         '152': '38rem',
         '162': '40.5rem',
         '230': '57.5rem'
+      },
+      width: {
+        '176': '44rem'
+      },
+      colors: {
+        'primary3' : '#024E82',
+        'secondary3': '#47AEF5'
       }
     },
   },
