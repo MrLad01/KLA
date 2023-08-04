@@ -10,25 +10,32 @@ export default {
     "./src/pages/SubPages/Page3.jsx",
     "./src/pages/SubPages/Pages4.jsx",
     "./src/pages/SubPages/Footer.jsx",
-    "./src/pages/About SubPages/About1.jsx"
+    "./src/pages/About SubPages/About1.jsx",
+    "./src/pages/About SubPages/About2.jsx",
   ],
   theme: {
     extend: {
       backgroundImage: {
         'background1' : "url('./assets/img_2.jpg')",
         'background' : "url('./assets/img_1.png')",
-        'aboutBack' : "url('./assets/About Page/background.png')"
+        'aboutBack' : "url('./assets/About Page/background.png')",
+        'aboutImg1' : "url('./assets/About Page/img 1.png')",
+        'aboutImg2' : "url('./assets/About Page/img 2.png')",
+        
       },
       height: {
         '86': '21.5rem',
         '88': '22rem',
         '100' : '25rem',
         '112' : '28rem',
+        '144' : '36rem',
         '152': '38rem',
         '162': '40.5rem',
         '230': '57.5rem'
       },
       width: {
+        '144': '36rem',
+        '152' : '38rem',
         '176': '44rem'
       },
       colors: {
