@@ -8,7 +8,7 @@ export default {
     "./src/pages/SubPages/Page1.jsx",
     "./src/pages/SubPages/Page2.jsx",  
     "./src/pages/SubPages/Page3.jsx",
-    "./src/pages/SubPages/Page4.jsx"
+    "./src/pages/SubPages/Pages4.jsx"
   ],
   theme: {
     extend: {
