@@ -27,6 +27,10 @@ export default {
       colors: {
         'primary3' : '#024E82',
         'secondary3': '#47AEF5'
+      },
+      fontFamily:{
+        lato: ['Lato'],
+        arimo: ['Arimo'],
       }
     },
   },

@@ -7,7 +7,7 @@ const Contact = () => {
     <React.Fragment>
       <div>
       <header className='bg-background1 object-cover w-screen h-64'>
-            <Link className='text-white'>CONTACT US</Link>
+            <Link className='text-white font-lato text-5xl font-normal content-end'>CONTACT US</Link>
         </header>
         <section>
             <h3>We would love to hear from you.</h3>
