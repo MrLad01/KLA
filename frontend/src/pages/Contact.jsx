@@ -1,10 +1,13 @@
 import React from 'react'
+import Cont from '../components/Cont'
+import Formpage from '../components/Formpage'
 
 const Contact = () => {
   return (
-    <div>
-      Contact
-    </div>
+    <React.Fragment>
+      <Cont />
+      <Formpage />
+    </React.Fragment>
   )
 }
 

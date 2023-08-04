@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'background1' : "url('./assets/unsplash_SZJoYW4eLHE.png')",
+        'background1' : "url('./assets/img_2.jpg')",
         'background' : "url('./assets/img_1.png')",
       },
       height: {
