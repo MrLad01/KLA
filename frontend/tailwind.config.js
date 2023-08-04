@@ -8,7 +8,8 @@ export default {
     "./src/components/Cont.jsx",
     "./src/components/FormPage.jsx",
     "./src/pages/SubPages/Page1.jsx",
-    "./src/pages/SubPages/Page2.jsx"
+    "./src/pages/SubPages/Page2.jsx",
+    "./src/pages/SubPages/Page3.jsx"
   ],
   theme: {
     extend: {
@@ -18,7 +19,9 @@ export default {
       },
       height: {
         '152': '38rem',
-        '162': '40.5rem'
+        '162': '40.5rem',
+        '182': '45.5rem',
+        '230': '57.5rem'
       }
     },
   },

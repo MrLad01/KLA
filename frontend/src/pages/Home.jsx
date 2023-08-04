@@ -1,6 +1,7 @@
 import React from 'react'
 import Page1 from './SubPages/Page1'
 import Page2 from './SubPages/Page2'
+import Page3 from './SubPages/Page3'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div >
       <Page1 />
       <Page2 />
+      <Page3 />
     </div>
   )
 }
