@@ -5,7 +5,7 @@ import Page2 from './SubPages/Page2'
 
 const Home = () => {
   return (
-    <div className='h-full'>
+    <div >
       <Page1 />
       <Page2 />
     </div>
