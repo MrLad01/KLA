@@ -6,7 +6,10 @@ export default {
     "./src/pages/Contact.jsx",
     "./src/pages/Home.jsx",
     ".src/components/Cont.jsx",
-    ".src/components/FormPage.jsx"
+    ".src/components/FormPage.jsx",
+    "./src/pages/SubPages/Page1.jsx",
+    "./src/pages/SubPages/Page2.jsx",  
+    "./src/pages/SubPages/Page3.jsx",
   ],
   theme: {
     extend: {
