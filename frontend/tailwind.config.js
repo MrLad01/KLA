@@ -25,6 +25,10 @@ export default {
       },
       width: {
         '176': '44rem'
+      },
+      colors: {
+        'primary3' : '#024E82',
+        'secondary3': '#47AEF5'
       }
     },
   },
