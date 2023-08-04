@@ -11,7 +11,7 @@ const Contact = () => {
         </header>
         <section>
             <h3 className='font-arimo text-tertiary font-bold text-4xl'>We would love to hear from you.</h3>
-            <p>If you have any query or any type of           suggestion,  you can contact us here. We would love to hear from you.</p>
+            <p className='font-lato text-tertiary font-normal text-base'>If you have any query or any type of suggestion, you can contact us here. We would love to hear from you.</p>
         <Form>
             <label htmlFor="name">Name
             <input type="text" />

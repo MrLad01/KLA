@@ -32,7 +32,7 @@ export default {
       fontFamily:{
         lato: ['Lato'],
         arimo: ['Arimo'],
-      }
+      },
     },
   },
   plugins: [],
