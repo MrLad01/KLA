@@ -12,6 +12,7 @@ export default {
     "./src/pages/SubPages/Footer.jsx",
     "./src/pages/About SubPages/About1.jsx",
     "./src/pages/About SubPages/About2.jsx",
+    "./src/pages/About SubPages/About3.jsx",
   ],
   theme: {
     extend: {
