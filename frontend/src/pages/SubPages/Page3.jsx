@@ -42,12 +42,12 @@ const Page3 = () => {
             <div className='h-full bg-primary3 w-full rounded-2xl justify-center items-center flex flex-col'>
                 <header>PEACE OF MIND</header>
                 <p>A one-stop platform for all your fashion needs, hassle-free. Buy with a peace of mind.</p>
-                <button>ORDER NOW</button>
+                <button className='text-primary3'>ORDER NOW</button>
             </div>
             <div className='h-full bg-secondary3 w-176 rounded-2xl justify-center items-center flex flex-col'>
                 <header>BUY 2, GET 1 FREE</header>
                 <p>End of season sale. Buy any 2 items of your choice and get 1 free.</p>
-                <button>ORDER NOW</button>
+                <button className='text-secondary3'>ORDER NOW</button>
             </div>
         </div>
       </div>

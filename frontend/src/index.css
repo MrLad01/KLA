@@ -101,7 +101,8 @@
   letter-spacing: 0em;
   text-align: center;
   color: #fff;
-  max-width: 400px;
+  max-width: 340px;
+  margin-top: 20px;
 }
 
 .page-32 div button{
@@ -112,4 +113,7 @@
   letter-spacing: 0em;
   text-align: center;
   background-color: #fff;
+  border-radius: 16px;
+  padding: 12px 32px 12px 32px;
+  margin-top: 30px;
 }
