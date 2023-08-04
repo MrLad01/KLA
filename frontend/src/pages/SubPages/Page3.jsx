@@ -7,8 +7,8 @@ import icon4 from "../../assets/Home Page 3 icons/icon 4.png"
 const Page3 = () => {
   return (
     <React.Fragment>
-      <div className='page-3 h-152 w-full'>
-        <div className='grid grid-cols-4 grid-rows-1 mx-20'>
+      <div className='page-3 h-152 w-full pt-10'>
+        <div className='grid grid-cols-4 grid-rows-1 mx-20 pl-7'>
             <div className='flex'>
                 <img src={icon1} alt="" />
                 <div className='grid'>
@@ -37,6 +37,10 @@ const Page3 = () => {
                     <h5>Our payments are secured with 256 bit encryption</h5>
                 </div>
             </div>
+        </div>
+        <div className='flex mx-20 h-100 mt-16 gap-5'>
+            <div className='h-full bg-primary3 w-full rounded-2xl'></div>
+            <div className='h-full bg-secondary3 w-176 rounded-2xl'></div>
         </div>
       </div>
     </React.Fragment>
