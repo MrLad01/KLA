@@ -6,12 +6,12 @@ const Contact = () => {
   return (
     <React.Fragment>
       <div>
-      <header className='bg-background1 object-cover w-screen h-64'>
-            <Link className='text-white'>CONTACT US</Link>
+      <header className='bg-background1  relative object-cover w-screen h-72'>
+            <Link className='text-white font-lato text-5xl font-normal bottom-0 absolute mb-12 ml-12'>CONTACT US</Link>
         </header>
         <section>
-            <h3>We would love to hear from you.</h3>
-            <p>If you have any query or any type of           suggestion,  you can contact us here. We would love to hear from you.</p>
+            <h3 className='font-arimo text-tertiary font-bold text-4xl'>We would love to hear from you.</h3>
+            <p className='font-lato text-tertiary font-normal text-base'>If you have any query or any type of suggestion, you can contact us here. We would love to hear from you.</p>
         <Form>
             <label htmlFor="name">Name
             <input type="text" />

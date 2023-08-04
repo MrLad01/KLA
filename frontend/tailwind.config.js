@@ -26,8 +26,13 @@ export default {
       },
       colors: {
         'primary3' : '#024E82',
-        'secondary3': '#47AEF5'
-      }
+        'secondary3': '#47AEF5',
+        'tertiary': '#3A3939'
+      },
+      fontFamily:{
+        lato: ['Lato'],
+        arimo: ['Arimo'],
+      },
     },
   },
   plugins: [],
