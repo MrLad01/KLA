@@ -2,9 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-      About
-    </div>
+    <React.Fragment>
+      <div className="bg-aboutBack w-full h-86">
+
+      </div>
+    </React.Fragment>
   )
 }
 

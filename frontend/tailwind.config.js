@@ -16,8 +16,11 @@ export default {
       backgroundImage: {
         'background1' : "url('./assets/img_2.jpg')",
         'background' : "url('./assets/img_1.png')",
+        'aboutBack' : "url('./assets/About Page/background.png')"
       },
       height: {
+        '86': '21.5rem',
+        '88': '22rem',
         '100' : '25rem',
         '112' : '28rem',
         '152': '38rem',
