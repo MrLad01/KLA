@@ -1,11 +1,10 @@
 import React from 'react'
+import About1 from './About SubPages/About1'
 
 const About = () => {
   return (
     <React.Fragment>
-      <div className="bg-aboutBack w-full h-86">
-
-      </div>
+      <About1 />
     </React.Fragment>
   )
 }
