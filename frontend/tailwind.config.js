@@ -19,6 +19,7 @@ export default {
       },
       height: {
         '100' : '25rem',
+        '112' : '28rem',
         '152': '38rem',
         '162': '40.5rem',
         '230': '57.5rem'
@@ -30,7 +31,9 @@ export default {
         'primary3' : '#024E82',
         'secondary3': '#47AEF5',
         'tertiary': '#3A3939',
-        'gray4': '#555555'
+        'gray4': '#555555',
+        'footer': '#FBFBFB',
+        'footerline': '#E8E8E8'
       },
       fontFamily:{
         lato: ['Lato'],

@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/KLA logo.png'
 import {  NavLink, Outlet } from 'react-router-dom'
+import Footer from '../pages/SubPages/Footer'
 
 const Nav = () => {
   return (
@@ -14,6 +15,7 @@ const Nav = () => {
         </div>
      </nav>
      <Outlet />
+     <Footer />
     </>
   )
 }

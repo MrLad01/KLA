@@ -3,7 +3,7 @@ import Page1 from './SubPages/Page1'
 import Page2 from './SubPages/Page2'
 import Page3 from './SubPages/Page3'
 import Page4 from './SubPages/Pages4'
-import Footer from './SubPages/Footer'
+
 
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <Page3 />
       <Page4 />
       <div className='w-full h-32'></div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

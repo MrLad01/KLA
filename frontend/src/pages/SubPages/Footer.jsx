@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <React.Fragment>
+      <div className="footer h-112 w-full bg-footer"></div>
+    </React.Fragment>
   )
 }
 
