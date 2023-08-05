@@ -223,6 +223,7 @@
   height: 3.3rem;
   flex-shrink: 0;
   border: 1px solid #EBEBEB;
+  text-indent: 1rem;
 }
 .contact2 Form textarea{
   max-width: 51.25rem;
@@ -230,6 +231,7 @@
   flex-shrink: 0;
   border: 1px solid #EBEBEB;
   /* background: #FFF; */
+  text-indent: 1rem;
 }
 
 .contact2 Form button{
