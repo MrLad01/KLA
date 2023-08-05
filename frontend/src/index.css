@@ -154,3 +154,11 @@
   line-height: 3rem; /* 100% */
   text-transform: uppercase;
 }
+
+.about3 div div h4{
+  font-family: Arimo;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

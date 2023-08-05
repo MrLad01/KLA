@@ -13,19 +13,19 @@ const About3 = () => {
             <div className='flex mx-20 gap-10'>
               <div className='grid'>
                 <img src={img1} alt="" />
-                <h4 className='mt-4 text-center'>HM Jawad</h4>
+                <h4 className='mt-4 text-center text-gray5'>HM Jawad</h4>
               </div>
               <div className='grid'>
                 <img src={img2} alt="" />
-                <h4 className='mt-4 text-center'>Furqan Abid</h4>
+                <h4 className='mt-4 text-center text-gray5'>Furqan Abid</h4>
               </div>
               <div className='grid'>
                 <img src={img3} alt="" />
-                <h4 className='mt-4 text-center'>Abdullah Ah</h4>
+                <h4 className='mt-4 text-center text-gray5'>Abdullah Ah</h4>
               </div>
               <div className='grid'>
                 <img src={img4} alt="" />
-                <h4 className='mt-4 text-center'>Abrar Khan</h4>
+                <h4 className='mt-4 text-center text-gray5'>Abrar Khan</h4>
               </div>
             </div>
         </div>
