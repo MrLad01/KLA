@@ -9,10 +9,10 @@ const Testimonial = () => {
     <React.Fragment>
       <div className="testimonial h-360 w-full">
         <header>Testimonial</header>
-        <div className='mx-56 grid mt-28 gap-y-56'>
+        <div className='mx-56 grid mt-16 gap-y-28'>
             <div className="flex">
                 <img src={img1} alt="" />
-                <div className='ml-6'>
+                <div className='ml-8'>
                     <img src={qoutes} alt="" />
                     <p className="mt-2">Once we ordered some accessories items and we got the products delivered in our doorstep, the customer support was super helpful and they answered all my queries.</p>
                     <h3 className="mt-6">Stacy</h3>
@@ -20,7 +20,7 @@ const Testimonial = () => {
             </div>
             <div className="flex">
                 <img src={img2} alt="" />
-                <div className='ml-6'>
+                <div className='ml-8'>
                     <img src={qoutes} alt="" />
                     <p className="mt-2">I ordered 5 shirts from them and received them in no time. The customer support was awesome!</p>
                     <h3 className="mt-6">Tiffany</h3>
@@ -28,10 +28,18 @@ const Testimonial = () => {
             </div>
             <div className="flex">
                 <img src={img3} alt="" />
-                <div className='ml-6'>
+                <div className='ml-8'>
                     <img src={qoutes} alt="" />
                     <p className="mt-2">I got a wrong shirt so I contacted them and they happily offered me a refund. I will surely shop from them again.</p>
                     <h3 className="mt-6">James</h3>
+                </div>
+            </div>
+            <div className="flex">
+                <img src={img1} alt="" />
+                <div className='ml-8'>
+                    <img src={qoutes} alt="" />
+                    <p className="mt-2">Once we ordered some accessories items and we got the products delivered in our doorstep, the customer support was super helpful and they answered all my queries.</p>
+                    <h3 className="mt-6">Stacy</h3>
                 </div>
             </div>
         </div>
