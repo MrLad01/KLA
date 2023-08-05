@@ -13,6 +13,7 @@ export default {
     "./src/pages/About SubPages/About1.jsx",
     "./src/pages/About SubPages/About2.jsx",
     "./src/pages/About SubPages/About3.jsx",
+    "./src/pages/About SubPages/Testimonial.jsx",
   ],
   theme: {
     extend: {
@@ -32,7 +33,8 @@ export default {
         '144' : '36rem',
         '152': '38rem',
         '162': '40.5rem',
-        '230': '57.5rem'
+        '230': '57.5rem',
+        '360' : '90rem'
       },
       width: {
         '144': '36rem',
