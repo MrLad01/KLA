@@ -58,7 +58,6 @@ const Footer = () => {
               <a href="">Terms and Conditions</a>
             </div>
           </div>
-hello
         </footer>
       </footer>
     </React.Fragment>
