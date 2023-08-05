@@ -1,6 +1,10 @@
 import React from 'react'
 import logo from '../../assets/KLA logo.png'
 import arrow from '../../assets/arrow.png'
+import visa from "../../assets/sponsors/visa.png"
+import mastercard from "../../assets/sponsors/mastercard.png"
+import paypal from "../../assets/sponsors/paypal.png"
+import visa2 from "../../assets/sponsors/visa2.png"
 
 const Footer = () => {
   return (
@@ -40,7 +44,22 @@ const Footer = () => {
           </div>
         </aside>
         <hr />
-        <footer></footer>
+        <footer className='mt-4'>
+          <div className='absolute right-20 flex gap-0.5'>
+            <img src={visa} alt="" />
+            <img src={mastercard} alt="" />
+            <img src={paypal} alt="" />
+            <img src={visa2} alt="" />
+          </div>
+          <div className='grid'>
+            <h3>&copy; 2023 KLA eCommerce</h3>
+            <div className='flex gap-4 mt-0.5'>
+              <a href="">Privacy</a>
+              <a href="">Terms and Conditions</a>
+            </div>
+          </div>
+
+        </footer>
       </footer>
     </React.Fragment>
   )
