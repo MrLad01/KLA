@@ -13,15 +13,15 @@ const Nav = () => {
       <div className='flex'>
         <img src={logo} alt="KLA logo" className='ml-2'/><p className='font-arimo mt-8 text-xs italic text-gray4'>Handmade Perfection...</p>
         </div>
-        <div className='mt-4  ml-48'>
+        <div className='mt-4 ml-48'>
             <NavLink className="font-arimo font-bold text-base text-center hover:text-header" to="/">Home</NavLink>
             <NavLink className="ml-9 font-arimo font-bold text-base text-center hover:text-header" to="about">About</NavLink>
             <NavLink className="ml-9 font-arimo font-bold text-base text-center hover:text-header" to="contact">Contact Us</NavLink>
         </div>
         <div className='flex ml-auto mr-10 mt-4'>
           <NavLink to='' ><img src={user} alt="user icon" /></NavLink>
-          <NavLink to='' className='ml-3 -mt-4'><img src={cart} alt="cart icon" /></NavLink>
-          <NavLink to='' className='ml-2'><img src={menu} alt="menu icon" /></NavLink>
+          <NavLink to='' className='ml-4 -mt-4'><img src={cart} alt="cart icon" /></NavLink>
+          <NavLink to='' className='ml-3'><img src={menu} alt="menu icon" /></NavLink>
         </div>
      </nav>
      <Outlet />
