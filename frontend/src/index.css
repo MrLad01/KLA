@@ -226,3 +226,13 @@
 .contact2 Form button{
   max-width: 51.25rem;
 }
+
+.contact2 Form div div label, .contact2 Form div label {
+  color: #555;
+  font-family: Lato;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1rem;
+}

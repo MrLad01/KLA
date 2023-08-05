@@ -24,9 +24,11 @@ const Contact = () => {
               </div>
 
             </div>
-      
-            <label htmlFor="message">Message</label>
-            <textarea name="" id="" cols="2" rows="2"></textarea>
+
+            <div className="mt-4 grid">
+              <label htmlFor="message">Message</label>
+              <textarea name="" id="" cols="2" rows="2"></textarea>
+            </div>
        
             <button type='submit'>SEND MESSAGE</button>
         </Form>
@@ -36,7 +38,7 @@ const Contact = () => {
             <h5>Visit Us</h5>
             <p>FUTA SOUTHGATE <br /> +2349065765454</p>
             </div>
-            <div>
+            <div className='mt-10'>
                 <h5>Get In Touch</h5>
                 <p>You can get in touch with us on this provided email.</p>
                 <p>Email: hmjawad087@gmail.com</p>
