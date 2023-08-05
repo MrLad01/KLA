@@ -1,9 +1,47 @@
 import React from 'react'
+import logo from '../../assets/KLA logo.png'
+import arrow from '../../assets/arrow.png'
 
 const Footer = () => {
   return (
     <React.Fragment>
-      <div className="footer h-112 w-full bg-footer"></div>
+      <footer className="footer h-112 w-full bg-footer px-12 pt-10 pb-6">
+        <img src={logo} alt="" />
+        <section className='flex gap-x-52 mt-6 mb-16'>
+          <div className='grid mt-8'>
+            <a href="">About Us</a>
+            <a href="">Latest Post</a>
+            <a href="">Contact Us</a>
+            <a href="">Shop</a>
+          </div>
+          <div className='grid'>
+            <header>HELP LINKS</header>
+            <a href="">Tracking</a>
+            <a href="">Order Status</a>
+            <a href="">Delivery</a>
+            <a href="">Shipping Info</a>
+            <a href="">FAQ</a>
+          </div>
+          <div className='grid'>
+            <header>USEFUL LINKS</header>
+            <a href="">Special Offers</a>
+            <a href="">Gift Cards</a>
+            <a href="">Advertising</a>
+            <a href="">Terms of Use</a>
+          </div>
+        </section>
+        <aside className='absolute right-32 -mt-72'>
+          <header>GET IN THE KNOW</header>
+          <div className='flex'>
+            <input type="text" placeholder='Enter Email' className='bg-footer border-b-2 mt-5 mr-2 outline-none' />
+            <button>
+              <img src={arrow} alt="" />
+            </button>
+          </div>
+        </aside>
+        <hr />
+        <footer></footer>
+      </footer>
     </React.Fragment>
   )
 }
