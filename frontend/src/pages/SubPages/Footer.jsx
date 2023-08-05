@@ -61,6 +61,7 @@ const Footer = () => {
         </footer>
       </footer>
       {/* satin-black */}
+      {/* radial-gradient */}
     </React.Fragment>
   )
 }
