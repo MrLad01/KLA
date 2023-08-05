@@ -210,7 +210,9 @@
 }
 
 .contact2 Form input{
-  max-width: 51.25rem;
+  width: 25rem;
+  height: 3.3rem;
+  flex-shrink: 0;
   border: 1px solid #EBEBEB;
 }
 .contact2 Form textarea{
