@@ -13,9 +13,9 @@ const Footer = () => {
         <img src={logo} alt="" />
         <section className='flex gap-x-52 mt-6 mb-16'>
           <div className='grid mt-8'>
-            <a href="">About Us</a>
-            <a href="">Latest Post</a>
-            <a href="">Contact Us</a>
+            <a href="about">About Us</a>
+            <a href="/">Latest Post</a>
+            <a href="contact">Contact Us</a>
             <a href="">Shop</a>
           </div>
           <div className='grid'>
