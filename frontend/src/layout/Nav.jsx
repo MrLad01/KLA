@@ -6,8 +6,8 @@ import Footer from '../pages/SubPages/Footer'
 const Nav = () => {
   return (
     <>
-     <nav className='flex w-full'>
-        <img src={logo} alt="KLA logo" />
+     <nav className='flex w-full my-2'>
+        <img src={logo} alt="KLA logo" className='ml-2'/>
         <div className='justify-center'>
             <NavLink to="/">Home</NavLink>
             <NavLink to="about">About</NavLink>
