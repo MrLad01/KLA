@@ -44,6 +44,7 @@ export default {
         'secondary3': '#47AEF5',
         'tertiary': '#3A3939',
         'gray4': '#555555',
+        'gray5': '#1D1D1D',
         'footer': '#FBFBFB',
         'footerline': '#E8E8E8'
       },
