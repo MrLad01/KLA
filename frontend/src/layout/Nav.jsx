@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <>
      <nav className='flex w-full my-2 nav'>
-        <img src={logo} alt="KLA logo" className='ml-2'/><p className='font-arimo mt-8 text-sm italic'>Handmade Perfection...</p>
+        <img src={logo} alt="KLA logo" className='ml-2'/><p className='font-arimo mt-8 text-sm italic text-gray4'>Handmade Perfection...</p>
         <div className='justify-center ml-16 mt-4'>
             <NavLink className="ml-9 font-arimo font-bold text-base text-center hover:text-header" to="/">Home</NavLink>
             <NavLink className="ml-9 font-arimo font-bold text-base text-center hover:text-header" to="about">About</NavLink>
