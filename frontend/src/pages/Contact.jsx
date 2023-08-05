@@ -55,7 +55,7 @@ const Contact = () => {
           )
         }
 
-        <aside className='absolute right-10 top-96'>
+        <aside className='absolute right-10 top-96 mt-4'>
             <div>
             <h5>Visit Us</h5>
             <p>FUTA SOUTHGATE <br /> +2349065765454</p>
