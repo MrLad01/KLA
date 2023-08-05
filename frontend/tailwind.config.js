@@ -49,7 +49,8 @@ export default {
         'gray4': '#555555',
         'gray5': '#1D1D1D',
         'footer': '#FBFBFB',
-        'footerline': '#E8E8E8'
+        'footerline': '#E8E8E8',
+        'header': '#024E82'
       },
       fontFamily:{
         lato: ['Lato'],
