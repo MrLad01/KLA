@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="bg-background1 w-full h-56 contact">
           <h3 className='absolute top-48 ml-16 text-white'>CONTACT US</h3>
         </div> 
-        <section className='contact2 mt-24 ml-10 w-full h-200'>
+        <section className='contact2 mt-24 ml-10 h-200'>
             <h3 className='font-arimo text-tertiary font-bold text-4xl'>We would love to hear from you.</h3>
             <p className='font-lato text-tertiary font-normal text-base'>If you have any query or any type of suggestion, you can contact us here. We would love to hear from you.</p>
         <Form className='grid'>
@@ -19,11 +19,11 @@ const Contact = () => {
             <input type="email" id='email' />
       
             <label htmlFor="message">Message</label>
-            <input type="text" />
+            <textarea name="" id="" cols="2" rows="2"></textarea>
        
             <button type='submit'>SEND MESSAGE</button>
         </Form>
-        <aside className='absolute right-0 -mt-52'>
+        <aside className='absolute right-10 -mt-96'>
             <div>
             <h5>Visit Us</h5>
             <p>FUTA SOUTHGATE <br /> +2349065765454</p>
