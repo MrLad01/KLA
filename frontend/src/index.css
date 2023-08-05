@@ -231,7 +231,8 @@
   flex-shrink: 0;
   border: 1px solid #EBEBEB;
   /* background: #FFF; */
-  text-indent: 1rem;
+  /* text-indent: 0.1rem; */
+  padding: 0.5rem;
 }
 
 .contact2 Form button{
