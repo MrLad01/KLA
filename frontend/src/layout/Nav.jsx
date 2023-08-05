@@ -14,7 +14,9 @@ const Nav = () => {
             <NavLink className="ml-9 font-arimo font-bold text-base text-center hover:text-header" to="contact">Contact Us</NavLink>
         </div>
         <div>
-
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
         </div>
      </nav>
      <Outlet />
