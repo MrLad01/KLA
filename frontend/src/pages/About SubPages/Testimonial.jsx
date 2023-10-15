@@ -49,14 +49,14 @@ const Testimonial = () => {
             <div className = "flex">
                 <img src = { img1 } alt = "" />
                 <div className = 'ml-8'>
-                    <img src = { qoutes } alt = "" />
+                    <img src = { quotes } alt = "" />
                     <p className = "mt-2">
                         Once we ordered some accessories items and we got the products delivered in our doorstep, the customer support was super helpful and they answered all my queries.
                     </p>
                     <h3 className = "mt-6"> Stacy </h3>
                 </div>
             </div>
-            
+
         </div>
       </div>
     </React.Fragment>
