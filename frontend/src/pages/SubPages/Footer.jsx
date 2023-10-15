@@ -9,53 +9,60 @@ import visa2 from "../../assets/sponsors/visa2.png"
 const Footer = () => {
   return (
     <React.Fragment>
-      <footer className="footer h-112 w-full bg-footer px-12 pt-10 pb-6">
-        <img src={logo} alt="" />
-        <section className='flex gap-x-52 mt-6 mb-16'>
-          <div className='grid mt-8'>
-            <a href="about">About Us</a>
-            <a href="/">Latest Post</a>
-            <a href="contact">Contact Us</a>
-            <a href="">Shop</a>
+      <footer className = "footer h-112 w-full bg-footer px-12 pt-10 pb-6">
+        <img src = { logo } alt = "" />
+        
+        <section className = 'flex gap-x-52 mt-6 mb-16'>
+          <div className = 'grid mt-8'>
+            <a href = "about"> About Us </a>
+            <a href = "/"> Latest Post </a>
+            <a href = "contact"> Contact Us </a>
+            <a href = ""> Shop </a>
           </div>
-          <div className='grid'>
-            <header>HELP LINKS</header>
-            <a href="">Tracking</a>
-            <a href="">Order Status</a>
-            <a href="">Delivery</a>
-            <a href="">Shipping Info</a>
-            <a href="">FAQ</a>
+        
+          <div className = 'grid'>
+            <header> <h1> HELP LINKS </h1>  </header>
+            <a href = ""> Tracking </a>
+            <a href = ""> Order Status </a>
+            <a href = ""> Delivery </a>
+            <a href = ""> Shipping Info </a>
+            <a href = ""> FAQ </a>
           </div>
-          <div className='grid'>
-            <header>USEFUL LINKS</header>
-            <a href="">Special Offers</a>
-            <a href="">Gift Cards</a>
-            <a href="">Advertising</a>
-            <a href="">Terms of Use</a>
+
+          <div className = 'grid'>
+            <header> <h1> USEFUL LINKS </h1> </header>
+            <a href = ""> Special Offers </a>
+            <a href = ""> Gift Cards </a>
+            <a href = ""> Advertising </a>
+            <a href = ""> Terms of Use </a>
           </div>
         </section>
-        <aside className='absolute right-32 -mt-72'>
-          <header>GET IN THE KNOW</header>
-          <div className='flex'>
-            <input type="text" placeholder='Enter Email' className='bg-footer border-b-2 mt-5 mr-2 outline-none' />
+
+        <aside className = 'absolute right-32 -mt-72'>
+          <header> <h1> GET IN THE KNOW </h1> </header>
+          
+          <div className = 'flex'>
+            <input type = "text" placeholder = 'Enter Email' className = 'bg-footer border-b-2 mt-5 mr-2 outline-none' />
             <button>
-              <img src={arrow} alt="" />
+              <img src = { arrow } alt = "" />
             </button>
           </div>
+
         </aside>
         <hr />
-        <footer className='mt-4'>
-          <div className='absolute right-20 flex gap-0.5'>
-            <img src={visa} alt="" />
-            <img src={mastercard} alt="" />
-            <img src={paypal} alt="" />
-            <img src={visa2} alt="" />
+        <footer className = 'mt-4'>
+          <div className = 'absolute right-20 flex gap-0.5'>
+            <img src = { visa } alt = "" />
+            <img src = { mastercard }  alt = "" />
+            <img src = { paypal } alt = "" />
+            <img src = { visa2 } alt = "" />
           </div>
-          <div className='grid'>
-            <h3>&copy; 2023 KLA eCommerce</h3>
-            <div className='flex gap-4 mt-0.5'>
-              <a href="">Privacy</a>
-              <a href="">Terms and Conditions</a>
+
+          <div className = 'grid'>
+            <h3> &copy; 2023 KLA eCommerce </h3>
+            <div className = 'flex gap-4 mt-0.5'>
+              <a href = ""> Privacy </a>
+              <a href = ""> Terms and Conditions </a>
             </div>
           </div>
         </footer>
