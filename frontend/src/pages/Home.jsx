@@ -13,7 +13,7 @@ const Home = () => {
       <Page2 />
       <Page3 />
       <Page4 />
-      <div className='w-full h-32'></div>
+      <div className = 'w-full h-32'></div>
       {/* <Footer /> */}
     </div>
   )
