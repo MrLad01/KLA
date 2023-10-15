@@ -50,6 +50,7 @@ const Footer = () => {
 
         </aside>
         <hr />
+
         <footer className = 'mt-4'>
           <div className = 'absolute right-20 flex gap-0.5'>
             <img src = { visa } alt = "" />
@@ -66,6 +67,7 @@ const Footer = () => {
             </div>
           </div>
         </footer>
+
       </footer>
       {/* satin-black */}
       {/* radial-gradient */}

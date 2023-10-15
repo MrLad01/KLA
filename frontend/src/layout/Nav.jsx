@@ -48,9 +48,8 @@ const Nav = () => {
             <img src = { menu } alt = "menu icon" />
           </NavLink>
       </div>
-
      </nav>
-     
+
      <Outlet />
      <Footer />
     </>
