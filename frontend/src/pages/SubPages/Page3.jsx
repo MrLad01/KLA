@@ -43,7 +43,7 @@ const Page3 = () => {
             </div>
         </div>
 
-        <div className = 'flex mx-20 h-100 mt-16 gap-5 page-32'>
+        <div className = 'flex w-full px-10 h-100 mt-16 gap-5 page-32'>
             <div className = 'h-full bg-primary3 w-full rounded-2xl justify-center items-center flex flex-col'>
                 <header> <h1> PEACE OF MIND </h1> </header>
                 <p> A one-stop platform for all your fashion needs, hassle-free. Buy with a peace of mind. </p>

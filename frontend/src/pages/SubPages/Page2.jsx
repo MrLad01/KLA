@@ -15,7 +15,7 @@ const Page2 = () => {
       <div className = 'page-2 w-full h-230 pt-10'>
         <header> <h1 className='mb-10'> Discover New Bags </h1></header>
         
-        <div className = 'grid grid-cols-4 grid-rows-2 mx-20 gap-y-10'>    
+        <div className = 'grid grid-cols-4 grid-rows-2 gap-16 w-full px-20'>    
             <div className = 'flex flex-col justify-center'>
                 <img src = { img1 } alt = "" className = 'w-64 h-72 justify-self-center' />
                 <h4 className = 'text-center -ml-6'> Plain White Shirt </h4>

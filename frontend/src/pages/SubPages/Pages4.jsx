@@ -12,7 +12,7 @@ const Pages4 = () => {
         
         <h3 className = 'text-center text-gray4 mb-6'>Browse our Special Packages</h3>
         
-        <div className = 'grid grid-cols-4 grid-rows-1 mx-20'>
+        <div className = 'grid grid-cols-4 grid-rows-1 w-full px-20 gap-10'>
             <div className = 'flex flex-col justify'>
                 <img src = { img1 } alt = "" className = 'w-64 h-72 justify-self-center' />
                 <h4 className = 'text-center -ml-9'> Gray Polo Shirt </h4>

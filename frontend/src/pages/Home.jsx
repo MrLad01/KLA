@@ -8,7 +8,7 @@ import Page4 from './SubPages/Pages4'
 
 const Home = () => {
   return (
-    <div className='w-screen' >
+    <div className='w-full' >
       <Page1 />
       <Page2 />
       <Page3 />

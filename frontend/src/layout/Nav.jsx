@@ -9,7 +9,7 @@ import menu from '../assets/menu 1.png'
 const Nav = () => {
   return (
     <>
-     <nav className = 'flex w-screen my-2 nav justify-between items-center'>
+     <nav className = 'flex w-full my-2 nav justify-between items-center'>
       
       <div className = 'flex'>
         <img src = { logo } alt = " KLA logo " className = ''/>
