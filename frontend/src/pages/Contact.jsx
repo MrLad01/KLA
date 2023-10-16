@@ -14,11 +14,11 @@ const Contact = () => {
   return (
     <React.Fragment>
 
-        <div className = "bg-background1 w-full h-56 contact">
+        <div className = "bg-background1 w-screen h-56 contact object-contain">
           <h3 className = 'absolute top-48 ml-16 text-white'> CONTACT US </h3>
         </div> 
 
-        <section className = 'contact2 mt-24 ml-10 h-162'>
+        <section className = 'contact2 mt-24 w-screen h-162 px-10'>
         
         {
           submitted ? 
@@ -38,8 +38,8 @@ const Contact = () => {
             </p>
 
             <Form className = 'grid' onSubmit = { handleSubmit }> 
-              <div className = 'flex'>
-                <div className = 'grid mr-4'>
+              <div className = 'flex gap-4'>
+                <div className = 'grid'>
                   <label htmlFor = "name"> Name </label>
                   <input type = "text" id = 'name' required />
                 </div>
@@ -62,6 +62,7 @@ const Contact = () => {
           )
         }
 
+ 
         <aside className = 'absolute right-10 top-96 mt-4'>
             <div>
               <h5> Visit Us </h5>
@@ -74,7 +75,7 @@ const Contact = () => {
                 <p> Email: hmjawad087@gmail.com </p>
             </div>
         </aside>
-        
+
       </section>
       {/* <div>
       <header className='bg-background1  relative object-cover w-screen h-72'>

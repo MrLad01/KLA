@@ -9,7 +9,7 @@ import visa2 from "../../assets/sponsors/visa2.png"
 const Footer = () => {
   return (
     <React.Fragment>
-      <footer className = "footer h-112 w-full bg-footer px-12 pt-10 pb-6">
+      <footer className = "footer h-112 w-screen bg-footer px-10 py-6">
         <img src = { logo } alt = "" />
         
         <section className = 'flex gap-x-52 mt-6 mb-16'>

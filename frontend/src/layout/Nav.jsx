@@ -9,13 +9,16 @@ import menu from '../assets/menu 1.png'
 const Nav = () => {
   return (
     <>
-     <nav className = 'flex w-full my-2 nav'>
+     <nav className = 'flex w-screen my-2 nav justify-between items-center'>
+      
       <div className = 'flex'>
-        <img src = { logo } alt = " KLA logo " className = 'ml-2'/>
+        <img src = { logo } alt = " KLA logo " className = ''/>
         <p className = 'font-arimo mt-8 text-xs italic text-gray4'> Handmade Perfection... </p>
       </div>
 
-      <div className = 'mt-4 ml-48'>
+      {/* mt-4 ml-48 */}
+
+      <div className = ''>
         <NavLink 
           className = "font-arimo font-bold text-base text-center hover:text-header" 
           to = "/"> 
@@ -35,7 +38,9 @@ const Nav = () => {
         </NavLink>
       </div>
 
-      <div className = 'flex ml-auto mr-10 mt-4'>
+      {/* flex ml-auto mr-10 mt-4 */}
+
+      <div className = 'flex'>
           <NavLink to = '' >
             <img src = { user } alt = " user icon " />
           </NavLink>
