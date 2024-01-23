@@ -32,8 +32,8 @@ const Footer = () => {
           <div className = 'grid'>
             <header> <h1> USEFUL LINKS </h1> </header>
             <a href = ""> Special Offers </a>
-            <a href = ""> Gift Cards </a>
-            <a href = ""> Advertising </a>
+            {/* <a href = ""> Gift Cards </a> */}
+            {/* <a href = ""> Advertising </a> */}
             <a href = ""> Terms of Use </a>
           </div>
         </section>
