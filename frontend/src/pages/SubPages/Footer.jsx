@@ -9,8 +9,8 @@ import visa2 from "../../assets/sponsors/visa2.png"
 const Footer = () => {
   return (
     <React.Fragment>
-      <footer className = "footer h-112 w-full bg-footer px-10 py-6">
-        <img src = { logo } alt = "" />
+      <footer className = "footer h-112 w-[100vw] bg-footer px-10 py-6 ">
+        <img src = { logo } alt = ""  className=' mix-blend-multiply' />
         
         <section className = 'flex gap-x-52 mt-6 mb-16'>
           <div className = 'grid mt-8'>

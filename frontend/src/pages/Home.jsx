@@ -3,12 +3,13 @@ import Page1 from './SubPages/Page1'
 import Page2 from './SubPages/Page2'
 import Page3 from './SubPages/Page3'
 import Page4 from './SubPages/Pages4'
+import Footer from './SubPages/Footer'
 
 
 
 const Home = () => {
   return (
-    <div className='w-full' >
+    <div className='w-[100vw] h-fit' >
       <Page1 />
       <Page2 />
       <Page3 />
