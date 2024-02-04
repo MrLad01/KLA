@@ -14,11 +14,11 @@ const Contact = () => {
   return (
     <React.Fragment>
 
-        <div className = "bg-background1 w-full h-56 contact object-contain">
+        <div className = "bg-background1 w-[100vw] h-56 contact object-contain">
           <h3 className = 'absolute top-48 ml-16 text-white'> CONTACT US </h3>
         </div> 
 
-        <section className = 'contact2 mt-24 w-full h-162 px-10'>
+        <section className = 'contact2 mt-24 w-[100vw] h-fit px-10 pb-20'>
         
         {
           submitted ? 

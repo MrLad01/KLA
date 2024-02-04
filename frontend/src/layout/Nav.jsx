@@ -10,11 +10,11 @@ const Nav = () => {
   return (
     <>
     <div className='w-[100vw] h-[100vh] relative' >
-      <nav className = 'flex w-full my-2 nav justify-around items-center gap-64 '>
+      <nav className = 'flex w-full my-2 nav justify-between items-center gap-64 px-8 '>
         
-        <div className = 'flex'>
-          <img src = { logo } alt = " KLA logo " className = ''/>
-          <p className = 'font-arimo mt-8 text-xs italic text-gray4'> Handmade Perfection... </p>
+        <div className = 'flex relative w-[160px] gap-2'>
+          <img src = { logo } alt = " KLA logo " className = ' mix-blend-multiply w-20 '/>
+          <span className = 'font-arimo text-[8px] absolute bottom-0 right-0  text-gray4'> ..Handmade Perfection... </span>
         </div>
 
         {/*  */}
@@ -41,7 +41,7 @@ const Nav = () => {
 
         {/* flex ml-auto mr-10 mt-4 */}
 
-        <div className = 'flex mt-4'>
+        <div className = 'flex  gap-2 mt-4'>
             <NavLink to = '' >
               <img src = { user } alt = " user icon " />
             </NavLink>
