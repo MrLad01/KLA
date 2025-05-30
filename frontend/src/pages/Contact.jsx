@@ -14,67 +14,97 @@ const Contact = () => {
   return (
     <React.Fragment>
 
-        <div className = "bg-background1 w-[100vw] h-56 contact object-contain">
-          <h3 className = 'absolute top-48 ml-16 text-white'> CONTACT US </h3>
+        <div className = "bg-background1 w-[100vw] h-56 sm:h-64 md:h-72 lg:h-80 contact object-contain relative">
+          <h3 className = 'absolute top-32 sm:top-40 md:top-48 lg:top-56 ml-4 sm:ml-8 md:ml-16 text-white text-2xl sm:text-3xl md:text-4xl font-bold'> CONTACT US </h3>
         </div> 
 
-        <section className = 'contact2 mt-24 w-[100vw] h-fit px-10 pb-20'>
+        <section className = 'contact2 mt-12 sm:mt-16 md:mt-24 w-[100vw] h-fit px-4 sm:px-6 md:px-10 pb-20 relative'>
         
         {
           submitted ? 
-            <div>
-              <h3 className = ' text-tertiary font-bold text-4xl mt-56 mb-16'> Message sent. We’ll contact you soon. </h3>
+            <div className="text-center sm:text-left">
+              <h3 className = 'text-tertiary font-bold text-2xl sm:text-3xl md:text-4xl mt-20 sm:mt-32 md:mt-56 mb-8 sm:mb-12 md:mb-16'> Message sent. We'll contact you soon. </h3>
               <Link to = "/">
-                <button type = 'submit' className = 'bg-primary3  text-white mt-8 px-8 py-4'> BACK TO HOME </button>
+                <button type = 'submit' className = 'bg-primary3 text-white mt-4 sm:mt-6 md:mt-8 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-semibold hover:opacity-90 transition-opacity'> BACK TO HOME </button>
               </Link>
             </div>  
           :
           (
-            <>
+            <div className="lg:flex lg:gap-12 xl:gap-16">
+              {/* Main form section */}
+              <div className="lg:flex-1 lg:max-w-2xl">
+                <h3 className = 'text-tertiary font-bold text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6'> We would love to hear from you. </h3>
+                <p className = 'font-lato text-tertiary font-normal text-sm sm:text-base mb-6 sm:mb-8 md:mb-10 leading-relaxed'>
+                  If you have any query or any type of suggestion, you can contact us here. We would love to hear from you. 
+                </p>
 
-            <h3 className = ' text-tertiary font-bold text-4xl mb-6'> We would love to hear from you. </h3>
-            <p className = 'font-lato text-tertiary font-normal text-base mb-10'>
-              If you have any query or any type of suggestion, you can contact us here. We would love to hear from you. 
-            </p>
+                <Form className = 'grid gap-4 sm:gap-6' onSubmit = { handleSubmit }> 
+                  <div className = 'flex flex-col sm:flex-row gap-4'>
+                    <div className = 'grid flex-1'>
+                      <label htmlFor = "name" className="text-tertiary font-medium mb-2"> Name </label>
+                      <input 
+                        type = "text" 
+                        id = 'name' 
+                        required 
+                        className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary3 focus:border-transparent"
+                      />
+                    </div>
 
-            <Form className = 'grid' onSubmit = { handleSubmit }> 
-              <div className = 'flex gap-4'>
-                <div className = 'grid'>
-                  <label htmlFor = "name"> Name </label>
-                  <input type = "text" id = 'name' required />
-                </div>
+                    <div className = 'grid flex-1'>
+                      <label htmlFor = "email" className="text-tertiary font-medium mb-2"> Email </label>
+                      <input 
+                        type = "email" 
+                        id = 'email' 
+                        required 
+                        className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary3 focus:border-transparent"
+                      />
+                    </div>
+                  </div>
 
-                <div className = 'grid'>
-                  <label htmlFor = "email"> Email </label>
-                  <input type = "email" id = 'email' required />
-                </div>
+                  <div className = "grid">
+                    <label htmlFor = "message" className="text-tertiary font-medium mb-2"> Message </label>
+                    <textarea 
+                      name = "" 
+                      id = "message" 
+                      cols = "2" 
+                      rows = "4" 
+                      required
+                      className="border border-gray-300 rounded px-3 py-2 min-h-[100px] resize-y focus:outline-none focus:ring-2 focus:ring-primary3 focus:border-transparent"
+                    ></textarea>
+                  </div>
+            
+                  <button 
+                    type = 'submit' 
+                    className = 'bg-primary3 text-white mt-4 sm:mt-6 md:mt-8 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-semibold hover:opacity-90 transition-opacity w-full sm:w-auto justify-self-start'
+                  > 
+                    SEND MESSAGE 
+                  </button>
+                </Form>
               </div>
 
-              <div className = "mt-4 grid">
-                <label htmlFor = "message"> Message </label>
-                <textarea name = "" id = "" cols = "2" rows = "2" required></textarea>
-              </div>
-        
-              <button type = 'submit' className = 'bg-primary3  text-white mt-8'> SEND MESSAGE </button>
-            </Form>
+              {/* Sidebar */}
+              <aside className = 'xl:ml-48 mt-12 lg:mt-0 lg:w-96 xl:w-96 bg-gray-50 p-6 rounded-lg h-fit'>
+                  <div className="mb-8">
+                    <h5 className="text-tertiary font-bold text-lg mb-3"> Visit Us </h5>
+                    <p className="text-tertiary text-sm sm:text-base leading-relaxed"> 
+                      FUTA SOUTHGATE <br /> 
+                      <span className="font-medium">+2349065765454</span> 
+                    </p>
+                  </div>
 
-            </>
+                  <div>
+                      <h5 className="text-tertiary font-bold text-lg mb-3"> Get In Touch </h5>
+                      <p className="text-tertiary text-sm sm:text-base leading-relaxed mb-2"> 
+                        You can get in touch with us on this provided email. 
+                      </p>
+                      <p className="text-tertiary text-sm sm:text-base"> 
+                        Email: <span className="font-medium text-primary3">hmjawad087@gmail.com</span>
+                      </p>
+                  </div>
+              </aside>
+            </div>
           )
         }
-
- 
-        <aside className = 'absolute right-10 top-96 mt-4'>
-            <div>
-              <h5> Visit Us </h5>
-              <p> FUTA SOUTHGATE <br /> +2349065765454 </p>
-            </div>
-
-            <div className = 'mt-10'>
-                <h5> Get In Touch </h5>
-                <p> You can get in touch with us on this provided email. </p>
-                <p> Email: hmjawad087@gmail.com </p>
-            </div>
-        </aside>
 
       </section>
       {/* <div>

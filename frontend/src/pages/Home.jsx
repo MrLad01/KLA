@@ -9,12 +9,12 @@ import Footer from './SubPages/Footer'
 
 const Home = () => {
   return (
-    <div className='w-[100vw] h-fit' >
+    <div className='w-[100vw] h-fit overflow-x-hidden' >
       <Page1 />
       <Page2 />
       <Page3 />
       <Page4 />
-      <div className = 'w-full h-32'></div>
+      <div className = 'w-full h-16 md:h-32'></div>
       {/* <Footer /> */}
     </div>
   )
