@@ -10,7 +10,7 @@ const Testimonial = () => {
       <div className = "testimonial h-auto min-h-360 w-full py-12 sm:py-16 md:py-20">
         
         <header> 
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center font-bold mb-8 sm:mb-12 md:mb-16"> Testimonial </h1> 
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center font-bold mb-8 sm:mb-12 md:mb-16"> Reviews </h1> 
         </header>
         
         <div className = 'mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-56 grid mt-8 sm:mt-12 md:mt-16 gap-y-12 sm:gap-y-16 md:gap-y-20 lg:gap-y-28'>

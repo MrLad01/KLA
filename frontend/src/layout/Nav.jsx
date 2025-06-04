@@ -64,12 +64,12 @@ const Nav = () => {
 
         {/* flex ml-auto mr-10 mt-4 */}
 
-        <div className = 'flex gap-2 mt-4'>
+        <div className = 'flex gap-2 mt-4 items-center justify-center'>
             <NavLink to = '' >
               <img src = { user } alt = " user icon " className="w-5 h-5 md:w-6 md:h-6" />
             </NavLink>
 
-            <NavLink to = '' className = 'ml-2 md:ml-4 -mt-4'>
+            <NavLink to = '' className = 'ml-2 md:ml-4 -mt-2'>
               <img src = { cart } alt = "cart icon" className="w-5 h-5 md:w-6 md:h-6" />
             </NavLink>
 

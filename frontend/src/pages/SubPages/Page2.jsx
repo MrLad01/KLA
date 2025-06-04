@@ -13,7 +13,7 @@ const Page2 = () => {
   return (
     <React.Fragment>
       <div className = 'page-2 w-full min-h-230 pt-6 md:pt-10 pb-6'>
-        <header> <h1 className='mb-6 md:mb-10 text-center text-xl md:text-2xl lg:text-3xl px-4'> Discover New Bags </h1></header>
+        <header> <h1 className='mb-6 md:mb-10 text-center text-xl md:text-2xl lg:text-3xl px-4'> Discover New Products </h1></header>
         
         <div className = 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-auto gap-8 md:gap-12 lg:gap-16 w-full px-4 md:px-8 lg:px-12 xl:px-20'>    
             <div className = 'flex flex-col justify-center items-center'>
