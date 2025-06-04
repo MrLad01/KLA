@@ -34,6 +34,12 @@ const Nav = () => {
 
           <NavLink 
             className = "ml-6 md:ml-9 font-arimo font-bold text-sm md:text-base text-center hover:text-header" 
+            to = "shop">
+                Shop
+          </NavLink>
+
+          <NavLink 
+            className = "ml-6 md:ml-9 font-arimo font-bold text-sm md:text-base text-center hover:text-header" 
             to = "contact">
                 Contact Us
           </NavLink>
@@ -56,6 +62,12 @@ const Nav = () => {
 
             <NavLink 
               className = "font-arimo font-bold text-sm text-center hover:text-header" 
+              to = "shop">
+                  Shop
+            </NavLink>
+
+            <NavLink 
+              className = "font-arimo font-bold text-sm text-center hover:text-header" 
               to = "contact">
                   Contact Us
             </NavLink>
@@ -69,7 +81,7 @@ const Nav = () => {
               <img src = { user } alt = " user icon " className="w-5 h-5 md:w-6 md:h-6" />
             </NavLink>
 
-            <NavLink to = '' className = 'ml-2 md:ml-4 -mt-2'>
+            <NavLink to = 'shop' className = 'ml-2 md:ml-4 -mt-2'>
               <img src = { cart } alt = "cart icon" className="w-5 h-5 md:w-6 md:h-6" />
             </NavLink>
 

@@ -6,6 +6,7 @@ export default {
     "./src/pages/About.jsx",
     "./src/pages/Contact.jsx",
     "./src/pages/Home.jsx",
+    "./src/pages/Shop.jsx",
     "./src/pages/SubPages/Page1.jsx",
     "./src/pages/SubPages/Page2.jsx",  
     "./src/pages/SubPages/Page3.jsx",
@@ -23,8 +24,11 @@ export default {
         'background' : "url('./assets/img_1.png')",
         'aboutBack' : "url('./assets/About Page/background.png')",
         'aboutImg1' : "url('./assets/About Page/img 1.png')",
-        'aboutImg2' : "url('./assets/About Page/img 2.png')",
-        
+        'shop' : "url('./assets/shop.png')",
+        'shopm' : "url('./assets/shopm.png')",
+        'leather' : "url('./assets/leather.png')",
+        'leather2' : "url('./assets/leather2.png')",
+        'leather3' : "url('./assets/leather3.png')",  
       },
       height: {
         '86': '21.5rem',
